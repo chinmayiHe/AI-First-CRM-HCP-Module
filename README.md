@@ -111,6 +111,22 @@ Key Learnings:
 -Managing application state using Redux
 -Building real-world CRM workflows
 
+
+Setup:
+
+Frontend
+-Go to frontend folder : cd frontend
+-Install dependencies : npm install
+-Start the app : npm run dev
+-Frontend will run at : http://localhost:5173
+
+Backend
+-Go to backend folder : cd backend
+-Install dependencies : pip install -r requirements.txt
+-Start server : uvicorn main:app --reload
+-Backend will run at : http://127.0.0.1:8000
+
+
 Conclusion:
 
 This project demonstrates how AI can improve traditional CRM systems by enabling conversational interaction, reducing manual effort, and improving efficiency for healthcare representatives.
