@@ -87,6 +87,10 @@ The system uses a LangGraph agent to process and manage interaction data.
 
 * **Log Interaction** – Captures and stores interaction details from chat input
 * **Edit Interaction** – Updates specific fields based on user instructions
+* **Extract Entities** – Parses structured data such as name, date, and materials
+* **Generate Summary** – Creates a short summary of the interaction
+* **Suggest Follow-ups** – Provides follow-up recommendations based on context
+
 
 
 ## Application Flow
