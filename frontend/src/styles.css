@@ -1,0 +1,187 @@
+/* Global */
+body {
+  font-family: Inter, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Left Panel */
+.form-container {
+  width: 70%;
+}
+
+/* Right Panel (Chat) */
+.chat-container {
+  width: 30%;
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Grid */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+/* Labels */
+label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Row (Materials/Samples) */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.row p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.row small {
+  color: #6b7280;
+}
+
+/* Buttons */
+.small-btn {
+  padding: 6px 12px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.small-btn:hover {
+  background: #f9fafb;
+}
+
+/* Sentiment */
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+/* Chat Box */
+.chat-box {
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Chat History */
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+/* Chat Messages */
+.user-msg {
+  background: #e0f2fe;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.ai-msg {
+  background: #f1f5f9;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+/* Chat Input */
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+}
+
+.chat-input button {
+  padding: 8px 14px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #1e40af;
+}
+
+/* Voice Button */
+.voice-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px dashed #cbd5f5;
+  background: #f8fafc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Suggestions */
+.suggestions {
+  margin-top: 10px;
+}
+
+.suggestions ul {
+  padding-left: 15px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
